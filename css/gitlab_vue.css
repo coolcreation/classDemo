@@ -1,0 +1,124 @@
+/*   Jeff Bohn    Gitlab Presentation about VUE    */
+
+
+body {
+    font-family: "Reggae One", Verdana, Arial, Helvetica, sans-serif;
+    font-size: 100%;  
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.col{
+    margin: 0;
+    padding: 0;
+    max-width: 100%;
+}
+h3{
+    margin-left: .3em;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+div{
+    border: 2px solid black;
+    margin-top: 1vh;
+    border: none;
+}
+.review{
+    max-width: 100%;
+}
+ul {
+    list-style-type: none;
+  }
+
+.footer{
+
+    text-shadow: 1px 1px white;
+    border: solid  #36454F 3px;
+    border: solid  black 3px;
+    text-align: center;
+    padding: 1.1em;
+    letter-spacing: .07em; 
+    max-width: auto;
+    margin-bottom: -2vh;
+  } 
+span{
+    color: darkblue;
+}
+ /* unvisited link */
+a:link {
+  color: darkblue;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+    color: darkblue;
+}
+
+/* mouse over link */
+a:hover {
+  color: #f39c12;
+  text-shadow: 1px 1px black;
+}
+
+/* selected link */
+a:active {
+  color: yellow;
+} 
+
+
+
+
+/*_____________________ DESKTOP__________________________*/
+
+@media screen and (min-width: 950px) {
+    .header{
+        max-width: 70vw;
+        margin-top: -2vh;
+    }
+    
+    .myRectangles{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 6vh;
+        border: none;
+    }
+    .myRectangles2{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        margin-bottom: 6vh;
+        border: none;
+    }
+    .review{
+        font-size: 1.1em;
+        border: none;
+        width: 65vw;
+    }
+    h2{
+        font-size: 1.4em;
+    }
+   .footer{
+        font-size: 1.1em;
+        text-align: center;
+        letter-spacing: .07em;
+        margin-bottom:  -2vh;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+      h3{
+          max-width: 50vw;
+      } 
+      a{
+          margin-bottom: 3em;
+      }
+  }
